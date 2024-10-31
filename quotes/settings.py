@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-j%oo*0#$57^mum!afv5x)tt^%e9gh9&%p@5!_r(*m^0bm-!j4g
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','']
+ALLOWED_HOSTS = ['quotegenerator-05374d8ff1da.herokuapp.com','localhost', '127.0.0.1',]
 
 
 # Application definition
@@ -53,27 +53,27 @@ TEMPLATES = [
 WSGI_APPLICATION = 'quotes.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# # Database
+# # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 # DATABASES = {
-#     'default' : {
-        
-#         'ENGINE'    : 'django.db.backends.postgresql',
-#         'NAME'      : 'd865glr7up3fa3',
-#         'USER'      : 'u8qb6idvrg77u',
-#         'PASSWORD'  : 'pb52c879f04e41587e651ede7aa739614df16e4ff63655cd37fb8385df585a45f',
-#         'HOST'      : 'c9mq4861d16jlm.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
-#         'PORT'      : '5432',
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
+DATABASES = {
+    'default' : {
+        
+        'ENGINE'    : 'django.db.backends.postgresql',
+        'NAME'      : 'd796il7qjo536l',
+        'USER'      : 'u9r11m5tie5u0t',
+        'PASSWORD'  : 'p0d2b4593ac795572b5dfbb7df157efc9e9dbdd910b9712be8cde30fec68d0e04',
+        'HOST'      : 'c8m0261h0c7idk.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
+        'PORT'      : '5432',
+    }
+}
 
 
 # Password validation
