@@ -11,7 +11,7 @@ SECRET_KEY = 'django-insecure-lq0e4)&oz2s!^g&i5^ufq@mtr_+zj=ve@*er*oq#&7_c2o$bq(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','quote-gen-bd4e3a45bc3c.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','mydailyquotes-e16ee3106fc0.herokuapp.com/',]
 
 
 # Application definition
@@ -58,14 +58,16 @@ TEMPLATES = [
 WSGI_APPLICATION = 'quotes.wsgi.application'
 
 
+
+
 DATABASES = {
     'default' : {
         
         'ENGINE'    : 'django.db.backends.postgresql',
-        'NAME'      : 'dc7sleriioma4m',
-        'USER'      : 'udc8t754t09eek',
-        'PASSWORD'  : 'pc9eb431488d8a6f817a7f76ad1559b948ba0399d9cd40506acdcae117c70d11e',
-        'HOST'      : 'cb5ajfjosdpmil.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
+        'NAME'      : 'df8g53cvmqcmkf',
+        'USER'      : 'ud0ar2e3bn6a4m',
+        'PASSWORD'  : 'p6ceab19ece41e2b9e880bc445208fb2d27610a21d2a08ad36799522eaa70153c',
+        'HOST'      : 'cd5gks8n4kb20g.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
         'PORT'      : '5432',
     }
 }
